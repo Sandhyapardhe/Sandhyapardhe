@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<!-- saved from url=(0090)http://127.0.0.1:5500/ticketing.html?Boarding=Bangalore&Destination=Mumbai&Date=2023-02-09 -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Bus Travels, AC Volvo Bus</title>
+    <link rel="stylesheet" href="./Book Bus Travels, AC Volvo Bus_files/style.css">
+    <script src="./Book Bus Travels, AC Volvo Bus_files/Busticketing.java">
+    </script>
+<style>
+        @import url('https://fonts.googleapis.com/css2?family=Solitreo&display=swap');
+        </style><style>
+    .img{
+        background-color: black;
+        height: 8vh;
+        width: 100vw;
+       
+    }
+   .header{
+    background-color: black;
+    height: 3vh;
+    width: 100vw;
+    
+   }
+   nav ul 
+   {
+    background-color: black;
+     height: 3vh; */
+   }
+   ul li{
+    list-style: none;
+    /* margin: 10px;
+    /* padding: 8px; */
+    display: inline-block;                
+    /* height: 5vh; */ */
+   }
+   ul li a{
+    
+    color: blue;
+    margin: 10px;
+    padding: 10px;
+    text-decoration:none;
+    
+   }
+   .ticket{
+    color: rgb(245, 245, 239);
+    background-color: black;
+    width: 100vw;
+   }
+   .container{
+    background-image: url(https://images.unsplash.com/photo-1501854140801-50d01698950b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1950&q=80);
+    width: 100vw;
+    height: 100vh;
+    background-attachment: fixed;
+   }
+   .travel{
+    text-align: center;
+    /* font-family: 'Solitreo', cursive; */
+    font-family: 'Solitreo', cursive;
+    line-height: 50px;
+    font-weight: bolder;
+    font-size: x-large;
+    transform: translateY(20vh);
+   }
+   form{
+    
+  height: 5vh;
+  align-items: center;
+   position: center;
+   text-align:center;
+   }
+   input {
+  font: 16px system-ui; */
+  color: rgb(11, 10, 10);
+  height: 50%;
+  width: 10vw;
+  padding: 6px 10px;
+  display: inline;  
+}
+.footer{
+    background-color: black;
+    align-items: center;
+}
+</style></head> 
+    
+     
+    <body><header>
+        
+        <div class="img">
+             <img src="./Book Bus Travels, AC Volvo Bus_files/gettyimages-136540173-2048x2048.jpg" width="90vw" alt="Human error">
+             <nav>
+             <ul>
+                <li><a href="http://127.0.0.1:5500/Home.html">Home</a></li>
+                <li><a href="http://127.0.0.1:5500/About.html">About</a></li>
+                <li><a href="http://127.0.0.1:5500/Contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        </div>
+        <div class="ticket"> White Travels
+        </div>
+    </header>
+    
+    
+    <div class="container">
+          
+      <div class="travel">Travel with comfort</div> 
+       <form id="form">
+        <input type="text" id="query" name="Boarding" placeholder="FROM">
+        <input type="text" id="query" name="Destination" placeholder="TO">
+        <input type="date" id="query" name="Date" placeholder="Date">
+         <button>Search</button>
+       </form>
+       </div> 
+    <!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+
+ <footer>
+    copyright ©Bus Ticketing-All rights reserved
+</footer> </body></html>
